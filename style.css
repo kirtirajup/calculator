@@ -1,0 +1,55 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.allCenter{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.buttonBox{
+    background: black;
+}
+button {
+    width: 45px;
+    height: 50px;
+    margin: 6px 3px;
+    border:0;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(77, 72, 72);
+    color: white;
+}
+
+input {
+    border: 2px solid black;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    height: 10vh;
+min-height: 30px;
+font-size: 18px;
+}
+
+.calculator {
+    border: 3px solid black;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+#largeButton {
+    width: 45%;
+}
